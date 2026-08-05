@@ -11,7 +11,7 @@ print(f"Total de {len(dados_para_banco)} registros prontos para envio.")
 
 print("\n2. Conectando ao seu MongoDB Atlas...")
 # Sua string de conexão segura
-uri = "mongodb+srv://arthurbc1:km15u11Sw48v11Ot@aulamongo.jrraoqr.mongodb.net/"
+uri = "LINK MONGODB"
 
 try:
     client = MongoClient(uri)
