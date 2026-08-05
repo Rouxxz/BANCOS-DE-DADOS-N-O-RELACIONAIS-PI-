@@ -33,7 +33,7 @@ else:
         df_atualizado = df_atualizado.fillna(0)
 
         print("Enviando dados atualizados para o MongoDB Atlas...")
-        uri = "mongodb+srv://arthurbc1:km15u11Sw48v11Ot@aulamongo.jrraoqr.mongodb.net/"
+        uri = "LINK MONGODB"
         client = MongoClient(uri)
         db = client['projeto_integrador_educacao']
         colecao_escolas = db['escolas_infra']
